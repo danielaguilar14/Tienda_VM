@@ -1,0 +1,32 @@
+31568942
+Fecha de comida: 26/02/2024
+Tipo de comida: Almuerzo
+Guarnicion 1: Frijoles
+Guarnicion 2: Frutas
+Proteína: Huevos
+Ensalada: Rusa
+
+11568942
+Fecha de comida: 25/02/2024
+Tipo de comida: Desayuno
+Guarnicion 1: Arroz
+Guarnicion 2: Frijoles
+Proteína: Pollo
+Ensalada: Verde
+
+31568942
+Fecha de comida: 26/02/2024
+Tipo de comida: Almuerzo
+Guarnicion 1: Frijoles
+Guarnicion 2: Frutas
+Proteína: Huevos
+Ensalada: Rusa
+
+11568942
+Fecha de comida: 25/02/2024
+Tipo de comida: Desayuno
+Guarnicion 1: Arroz
+Guarnicion 2: Frijoles
+Proteína: Pollo
+Ensalada: Verde
+
