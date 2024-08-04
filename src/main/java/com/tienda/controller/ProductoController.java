@@ -8,6 +8,7 @@ import com.tienda.domain.Producto;
 import com.tienda.services.CategoriaService;
 import com.tienda.services.ProductoService;
 import com.tienda.services.FirebaseStorageService;
+import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -67,5 +68,12 @@ public class ProductoController {
         var categorias = categoriaService.getCategorias(false);
         model.addAttribute("categorias", categorias);
         return "/producto/modifica";
+    }
+
+    @GetMapping("/productos/precio")
+    public String getProductosByPrecio(@RequestParam("precio") double precio, Model model) {
+        List<Producto> productos = productoService.findProductosByPrecioGreaterThan(precio);
+        model.addAttribute("productos", productos);
+        return "productos_precio";
     }
 }

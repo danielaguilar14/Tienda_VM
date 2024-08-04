@@ -66,4 +66,9 @@ public class ProductoServiceImpl implements ProductoService {
     public List<Producto> consulta3(double precioInf, double precioSup) {
         return productoDao.consultaSQL(precioInf, precioSup);
     }
+
+    @Override
+    public List<Producto> findProductosByPrecioGreaterThan(double precio) {
+        return productoDao.findProductosByPrecioGreaterThan(precio);
+    }
 }
